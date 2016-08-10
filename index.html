@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alexey Novopashin">
+    <title>Sarbat - Верстка от allordiron</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"
+            integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+    <script src="bower_components/jquery-circle-progress/dist/circle-progress.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/circles.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body>
+<img id="background" src="images/bg.png" alt="Background Image">
+<nav id="menu" class="hidden">
+    <ul id="menu-list">
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#clients">Our Clients</a></li>
+        <li><a href="#pricing">Plans & Pricing</a></li>
+        <li><a href="#skills">Our Skills</a></li>
+        <li><a href="#latest-posts">Latest Posts</a></li>
+    </ul>
+</nav>
+<header class="container" id="slider">
+    <div id="block-header">
+        <div id="logo">
+            <img src="images/logo.png" alt="Studio Logo">
+        </div>
+        <div id="menu-toggle">
+            <a id="menu-link" href="#menu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+    <div class="content col-xs-6 col-xs-offset-3">
+        <h1><img id="large-logo" src="images/large-logo.png" alt="Sarbat"></h1>
+        <div class="row">
+            <h2 class="sub-text col-md-6 col-md-offset-6">PSD template from VishnuSathyan</h2>
+        </div>
+    </div>
+</header>
+<section class="container-fluid" id="services-wrapper">
+    <div class="container" id="services">
+        <h2>Our Services</h2>
+        <div class="group-of-services row">
+            <article class="service-item col-xs-4">
+                <header>
+                    <img src="images/Folder.png" alt="Web Designs">
+                </header>
+                <div class="content">
+                    <h3>Web Designs</h3>
+                    <p>Eiusmod tempor incididunt ut labore et dolore magna lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </article>
+            <article class="service-item col-xs-4">
+                <header>
+                    <img src="images/Settings.png" alt="Web Development">
+                </header>
+                <div class="content">
+                    <h3>Web Development</h3>
+                    <p>Eiusmod tempor incididunt ut labore et dolore magna lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </article>
+            <article class="service-item col-xs-4">
+                <header>
+                    <img src="images/Pencil.png" alt="Branding">
+                </header>
+                <div class="content">
+                    <h3>Branding</h3>
+                    <p>Eiusmod tempor incididunt ut labore et dolore magna lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </article>
+        </div>
+        <div class="group-of-services row">
+            <article class="service-item col-xs-4">
+                <header>
+                    <img src="images/Diamond.png" alt="Logo Designs">
+                </header>
+                <div class="content">
+                    <h3>Logo Designs</h3>
+                    <p>Eiusmod tempor incididunt ut labore et dolore magna lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </article>
+            <article class="service-item col-xs-4">
+                <header>
+                    <img src="images/Headset.png" alt="Graphic Designs">
+                </header>
+                <div class="content">
+                    <h3>Graphic Designs</h3>
+                    <p>Eiusmod tempor incididunt ut labore et dolore magna lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </article>
+            <article class="service-item col-xs-4">
+                <header>
+                    <img src="images/Truck%202.png" alt="UI/UX Designs">
+                </header>
+                <div class="content">
+                    <h3>UI/UX Designs</h3>
+                    <p>Eiusmod tempor incididunt ut labore et dolore magna lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </article>
+        </div>
+        <div class="group-of-services row">
+            <article class="service-item col-xs-4">
+                <header>
+                    <img src="images/Wrench%202.png" alt="Mini Sites">
+                </header>
+                <div class="content">
+                    <h3>Mini Sites</h3>
+                    <p>Eiusmod tempor incididunt ut labore et dolore magna lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </article>
+            <article class="service-item col-xs-4">
+                <header>
+                    <img src="images/Wallet.png" alt="Banner Ads">
+                </header>
+                <div class="content">
+                    <h3>Banner Ads</h3>
+                    <p>Eiusmod tempor incididunt ut labore et dolore magna lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </article>
+            <article class="service-item col-xs-4">
+                <header>
+                    <img src="images/Headset.png" alt="Site Headers">
+                </header>
+                <div class="content">
+                    <h3>Site Headers</h3>
+                    <p>Eiusmod tempor incididunt ut labore et dolore magna lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<section id="clients-wrapper" class="container-fluid">
+    <div id="clients" class="container">
+        <h2>Our Clients</h2>
+        <div class="clients-group row">
+            <article class="client-item col-xs-3">
+                <h3><img src="images/grahpicriver-dark.png" alt="Company GraphiCriver" style="margin-left: -10px;"></h3>
+            </article>
+            <article class="client-item col-xs-3">
+                <h3><img src="images/audiojungle-dark.png" alt="Company AudioJungle"></h3>
+            </article>
+            <article class="client-item col-xs-3">
+                <h3><img src="images/photodune-dark.png" alt="Company PhotoDune"></h3>
+            </article>
+            <article class="client-item col-xs-3">
+                <h3><img src="images/activeden-dark.png" alt="Company Activeden"></h3>
+            </article>
+        </div>
+        <div class="clients-group row">
+            <article class="client-item col-xs-3">
+                <h3><img src="images/audiojungle-dark.png" alt="Company AudioJungle"></h3>
+            </article>
+            <article class="client-item col-xs-3">
+                <h3><img src="images/3docean-dark.png" alt="Company 3D Ocean"></h3>
+            </article>
+            <article class="client-item col-xs-3">
+                <h3><img src="images/codecanyon-dark.png" alt="Company CodeCanyon"></h3>
+            </article>
+            <article class="client-item col-xs-3">
+                <h3><img src="images/grahpicriver-dark.png" alt="Company GraphiCriver" style="margin-left: -10px;"></h3>
+            </article>
+        </div>
+    </div>
+</section>
+<section id="pricing-wrapper" class="container-fluid">
+    <div id="pricing" class="container">
+        <div id="plans" class="row">
+            <h2>Plans & Pricing</h2>
+            <div class="plan-wrapper col-xs-3">
+                <article id="normal" class="plan">
+                    <h3 class="plan-name">Standard</h3>
+                    <h4 class="plan-price"><sup>$</sup>42</h4>
+                    <img class="plan-divider" height="2" src="images/divider.png" alt="divider">
+                    <ul class="plan-features">
+                        <li><strong>1GB</strong> of Storage</li>
+                        <li><strong>10</strong> Respirators</li>
+                        <li><strong>5</strong> Users</li>
+                        <li><strong>5 FTP</strong> Accounts</li>
+                        <li><strong>5</strong> Email Accounts</li>
+                        <li><strong>24/7</strong> Support</li>
+                        <li>-</li>
+                        <li>-</li>
+                    </ul>
+                    <img class="plan-divider" height="2" src="images/divider.png" alt="divider">
+                    <a class="plan-order" href="#"><p>Order Now</p></a>
+                </article>
+            </div>
+            <div class="plan-wrapper col-xs-3">
+                <article id="premium" class="plan">
+                    <h3 class="plan-name">Premium</h3>
+                    <h4 class="plan-price"><sup>$</sup>63</h4>
+                    <img class="plan-divider" height="2" src="images/divider.png" alt="divider">
+                    <ul class="plan-features">
+                        <li><strong>1GB</strong> of Storage</li>
+                        <li><strong>10</strong> Respirators</li>
+                        <li><strong>5</strong> Users</li>
+                        <li><strong>5 FTP</strong> Accounts</li>
+                        <li><strong>5</strong> Email Accounts</li>
+                        <li><strong>24/7</strong> Support</li>
+                        <li>Premium Special</li>
+                        <li>-</li>
+                    </ul>
+                    <img class="plan-divider" height="2" src="images/divider.png" alt="divider">
+                    <a class="plan-order" href="#"><p>Order Now</p></a>
+                </article>
+            </div>
+            <div class="plan-wrapper col-xs-3">
+                <article id="business" class="plan">
+                    <h3 class="plan-name">Business</h3>
+                    <h4 class="plan-price"><sup>$</sup>74</h4>
+                    <img class="plan-divider" height="2" src="images/divider.png" alt="divider">
+                    <ul class="plan-features">
+                        <li><strong>1GB</strong> of Storage</li>
+                        <li><strong>10</strong> Respirators</li>
+                        <li><strong>5</strong> Users</li>
+                        <li><strong>5 FTP</strong> Accounts</li>
+                        <li><strong>5</strong> Email Accounts</li>
+                        <li><strong>24/7</strong> Support</li>
+                        <li>Business Special</li>
+                        <li>Unlimited</li>
+                    </ul>
+                    <img class="plan-divider" height="2" src="images/divider.png" alt="divider">
+                    <a class="plan-order" href="#"><p>Order Now</p></a>
+                </article>
+            </div>
+            <div class="plan-wrapper col-xs-3">
+                <article id="ultimate" class="plan">
+                    <h3 class="plan-name">Ultimate</h3>
+                    <h4 class="plan-price"><sup>$</sup>95</h4>
+                    <img class="plan-divider" height="2" src="images/divider.png" alt="divider">
+                    <ul class="plan-features">
+                        <li><strong>1GB</strong> of Storage</li>
+                        <li><strong>10</strong> Respirators</li>
+                        <li><strong>5</strong> Users</li>
+                        <li><strong>5 FTP</strong> Accounts</li>
+                        <li><strong>5</strong> Email Accounts</li>
+                        <li><strong>24/7</strong> Support</li>
+                        <li>Ultimate Special</li>
+                        <li>Unlimited</li>
+                    </ul>
+                    <img class="plan-divider" height="2" src="images/divider.png" alt="divider">
+                    <a class="plan-order" href="#"><p>Order Now</p></a>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="skills-wrapper" class="container-fluid">
+    <div id="skills" class="container">
+        <h2>Our Skills</h2>
+        <div id="skills-row" class="row">
+            <article class="skill-item col-xs-3">
+                <div class="circle" id="circle-photoshop"></div>
+                <h3>Photoshop <strong>70<sup>%</sup></strong></h3>
+            </article>
+            <article class="skill-item col-xs-3">
+                <div class="circle" id="circle-fireworks"></div>
+                <h3>Fireworks <strong>90<sup>%</sup></strong></h3>
+            </article>
+            <article class="skill-item col-xs-3">
+                <div class="circle" id="circle-html"></div>
+                <h3>HTML <strong>60<sup>%</sup></strong></h3>
+            </article>
+            <article class="skill-item col-xs-3">
+                <div class="circle" id="circle-wordpress"></div>
+                <h3>Wordpress <strong>40<sup>%</sup></strong></h3>
+            </article>
+        </div>
+        <div id="comments" class="row">
+            <article class="comment col-xs-6">
+                <div class="left-side col-md-3 col-xs-4">
+                    <img class="comment-logo" src="images/comment-logo.png" alt="Comment Logo">
+                </div>
+                <div class="right-side col-md-9 col-xs-8"><h2 class="comment-title">Sarbat is Awesome</h2>
+                    <p class="comment-content">“Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in pariatur. Excepteur sint occaecat.”</p>
+                    <p class="comment-author"><strong>- Vishnu Sathyan <span>(NZ)</span></strong></p>
+                </div>
+            </article>
+            <article class="comment col-xs-6">
+                <div class="left-side col-md-3 col-xs-4">
+                    <img class="comment-logo" src="images/comment-logo.png" alt="Comment Logo">
+                </div>
+                <div class="right-side col-md-9 col-xs-8">
+                    <h2 class="comment-title">Sarbat is Colorful</h2>
+                    <p class="comment-content">“Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in pariatur. Excepteur sint occaecat.”</p>
+                    <p class="comment-author"><strong>- Vishnu Sathyan <span>(NZ)</span></strong></p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<section id="latest-posts-wrapper" class="container-fluid">
+    <div id="latest-posts" class="container">
+        <h2>Latest Posts</h2>
+        <div class="row">
+            <article class="post col-xs-3 col-xs-offset-3">
+                <p class="post-date"><span>05</span><sup>Feb</sup></p>
+                <h3 class="post-content">This blog is heading, and it is long.</h3>
+                <p class="post-link"><a class="post-link" href="#">Read Now</a></p>
+            </article>
+            <article class="post col-xs-3 col-xs-offset-3">
+                <p class="post-date"><span>29</span><sup>Dec</sup></p>
+                <h3 class="post-content">This is blog heading,
+                    and it is really long.</h3>
+                <p class="post-link"><a href="#">Read Now</a></p>
+            </article>
+        </div>
+    </div>
+    <table id="social-networks">
+        <tr>
+            <td style="border-left: none !important;"><a href="#"><img src="images/Facebook.png" alt="Facebook Logo"></a></td>
+            <td><a href="#"><img src="images/Twitter.png" alt="Twitter Logo"></a></td>
+            <td><a href="#"><img src="images/g_.png" alt="Google+ Logo"></a></td>
+            <td style="border-right: none !important;"><a href="#"><img src="images/Behance.png" alt="Behance Logo"></a></td>
+        </tr>
+    </table>
+    <div id="contact-us" class="container">
+        <div id="text" class="col-xs-6">
+            <h3>Sarbat is colorful</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-xs-6">
+                    <h3>Reach Us</h3>
+                    <address>12th Kuthampully Street & PO., Ernakulam Dt., Kuthampully, Kerala. IN. PIN 689 597</address>
+                </div>
+                <div class="col-xs-6">
+                    <h3>Mail Us</h3>
+                    <p>VishnuSathyan@outlook.com www.vthed.com</p>
+                </div>
+            </div>
+        </div>
+        <form id="feedback" class="col-xs-6" action="index.html">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="Message">
+            <div style="text-align: right;">
+                <button type="submit">Contact Now</button>
+            </div>
+        </form>
+    </div>
+</section>
+<footer>
+    <p>© Copyright 2015 <span>/</span> All Rights Reserved <span>/</span> A Design by VishnuSathyan</p>
+</footer>
+</body>
+</html>

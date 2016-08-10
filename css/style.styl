@@ -1,0 +1,274 @@
+pretty-dark = #121212
+pretty-gray = #757575
+violet = #802775
+red = #dc071d
+
+body
+  font-family "Montserat"
+  min-width 785px
+
+.hidden
+  visibility hidden
+#menu
+  background-color pretty-dark
+  #menu-list
+    padding 15px
+    list-style none
+    font-size 20px
+    text-transform uppercase
+    text-align center
+    li
+      padding 20px 0
+      margin-right -5px
+      display inline
+      a
+        white-space nowrap
+        color white
+        padding 18px
+        transition all .5s ease-in
+        &:hover
+          background-color pretty-gray
+          transition all .5s ease-in
+
+#background
+  min-width 785px
+  z-index -2
+  position fixed
+  width 100%
+  height 100%
+
+#slider
+  #block-header
+    margin-top 35px
+    #logo
+      display inline-block
+    #menu-toggle
+      width 80%
+      display inline-block
+      text-align right
+
+      font-size 30px
+
+      #menu-link
+        border 1px solid white
+        padding 10px 15px
+        color white
+  .content
+    margin-top 300px
+    margin-bottom 400px
+    #large-logo
+      width 100%
+      font-family "Neptune"
+      text-align center
+      text-transform uppercase
+      color white
+    .sub-text
+      margin-top 15px
+      font-size 16px
+      font-family "Noto Sans Italic"
+      font-style italic
+      font-weight normal
+      border-top 2px solid white
+      color white
+      text-align right
+
+#services-wrapper
+  background-color pretty-dark
+  #services
+    margin-top 55px
+    color white
+    h2
+      font-weight bold
+      margin-bottom 55px
+    header
+      height 60px
+      width 70px
+      text-align center
+      border-bottom 1px solid pretty-gray
+      padding-bottom 10px
+    .content
+      margin-top 30px
+      p
+        color pretty-gray
+    .group-of-services
+      margin-bottom 100px
+
+#clients-wrapper
+  width 100%
+  background: linear-gradient(to right, violet , red);
+  #clients
+    color white
+    .clients-group
+      margin-bottom 70px
+    h2
+      margin-top 80px
+      margin-bottom 60px
+
+#pricing-wrapper
+  background-color pretty-dark
+  color white
+  #pricing
+    padding 115px 0
+    #plans
+      h2
+        margin-bottom 60px
+      .plan-wrapper
+        padding-left 10px
+        padding-right 10px
+        .plan
+          height 100%
+          padding 30px
+          border 2px solid pretty-gray
+          .plan-name
+            margin-top 0
+            font-size 26px
+          .plan-price
+            text-align right
+            color white
+            font-size 72px
+            sup
+              top -1.3em
+              font-style italic
+              font-size 26px
+              font-family "Noto Sans"
+              color pretty-gray
+          .plan-divider
+            width 100%
+          .plan-features
+            padding-top 15px
+            padding-bottom 15px
+            list-style none
+            padding-left 0
+            li
+              font-size 14px
+              color pretty-gray
+              font-family "Noto Sans"
+              margin-bottom 15px
+              margin-top 15px
+              strong
+                font-style italic
+                font-weight bold
+                color white
+          .plan-order
+            color white
+            font-weight bold
+            font-size 16px
+            text-transform uppercase
+            text-align center
+            p
+              margin-top 24px
+              margin-bottom 0
+              padding 0
+
+#skills-wrapper
+  color white
+  background-color black
+  padding 75px 0
+  #skills
+    #skills-row
+      .skill-item
+        h3
+          font-size 24px
+          strong
+            font-weight bold
+            font-size 46px
+            sup
+              top -0.8em
+              font-family "Noto Sans"
+              font-size 24px
+              font-style italic
+              font-weight normal
+              color pretty-gray
+      .circle
+        margin-top 25px
+  #comments
+    margin-top 175px
+    .comment
+      .right-side
+        .comment-author
+          font-style italic
+          span
+            font-weight normal
+        .comment-content
+          font-style italic
+          margin 15px 0
+
+#latest-posts-wrapper
+  color white
+  background-color pretty-dark
+  padding 90px 0
+  #latest-posts
+    .post
+      .post-date
+        span
+          font-size 72px
+          font-weight bold
+          border-width 2px
+          border-style solid
+          border-image linear-gradient(to right, violet , red) 1
+          border-top none
+          border-right none
+          border-left none
+        sup
+          top -1.5em
+          font-size 26px
+          font-family "Neo Sans"
+          font-style italic
+          color pretty-gray
+      .post-content
+        font-size 26px
+      .post-link
+        margin-top 20px
+        font-weight bold
+        text-transform uppercase
+        a
+          color white
+  #social-networks
+    margin 90px 0
+    text-align center
+    width 100%
+    tr
+      td
+        width 25%
+        border 1px solid pretty-gray
+        padding 15px
+      td:hover
+        background-image url("../images/hover-social.png")
+  #contact-us
+    padding 0
+    #feedback
+      input
+        margin-top 15px
+        font-family "Neo Sans"
+        font-style italic
+        width 100%
+        background none
+        border none
+        border-bottom 1px solid pretty-gray
+        padding 5px 0
+      button
+        margin-top 20px
+        text-transform uppercase
+        font-weight bold
+        padding 10px 25px
+        background linear-gradient(to right, violet , red);
+        border none
+    h3
+      margin 0
+      padding 0
+    address
+    p
+      margin-top 10px
+      color pretty-gray
+
+footer
+  text-align center
+  color white
+  padding 30px
+  background: linear-gradient(to right, violet , red);
+  p
+    margin 0
+    padding 0
+    span
+      margin-left 10px
+      margin-right 10px
