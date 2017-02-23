@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
-  font-family: "Montserat";
+  font-family: "Montserrat";
   min-width: 785px;
 }
 .hidden {
